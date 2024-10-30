@@ -1,0 +1,203 @@
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.caveat-uniquifier {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(20, 15, 0);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    color: antiquewhite;
+    box-shadow: 2px 2px 4px rgb(39, 34, 29);
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(66, 57, 46);
+    font-family: "Roboto";
+    margin-top: 60px;
+    display: flex;
+    padding: 12px;
+}
+
+header button {
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: antiquewhite;
+    border: none;
+    background-color: rgb(39, 34, 29);
+    padding: 8px;
+}
+
+header button:hover {
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(22, 19, 17);
+}
+
+header img {
+    color: antiquewhite;
+    height: 65px;
+}
+
+#form-insert {
+    box-shadow: 2px 2px 4px rgb(37, 33, 28);
+    margin-left: 14%;
+    background-color: rgb(39, 34, 29);
+    padding: 30px;
+    max-width: 300px;
+    border-radius: 1px 1px 8px 8px;
+}
+
+#form-insert input {
+    background-color: rgb(214, 214, 140);
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+}
+
+#form-insert input::placeholder {
+    padding: 4px;
+    color: rgb(0, 0, 0);
+}
+
+#form-insert input:focus {
+    border-color: yellow;
+
+    color: rgb(0, 0, 0);
+}
+
+#form-insert button {
+    font-size: 15px;
+    height: 30px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: antiquewhite;
+    border: none;
+    background-color: rgb(65, 57, 49);
+    padding: 8px;
+}
+
+#form-insert button:hover {
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(22, 19, 17);
+}
+
+
+#form-lista {
+    font-family: "Caveat";
+    margin-top: 40px;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: yellow;
+}
+
+#form-lista li {
+    list-style: none;
+}
+
+#form-lista ul:hover {
+    cursor: pointer;
+}
+
+#form-lista hr {
+    height: 1px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 100%;
+}
+
+#form-lista h2 {
+    font-size: 30px;
+}
+
+#lista {
+    display: none;
+}
