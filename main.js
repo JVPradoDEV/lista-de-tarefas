@@ -1,6 +1,6 @@
 $(document).ready(function () {
     document.querySelector("header button").addEventListener("click", function () {
-        $("#lista").slideDown();
+        $("#lista").slideToggle();
     })
 
     $("form").on("submit", function (e) {
